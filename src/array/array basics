@@ -1,0 +1,11 @@
+*An array declaration has two components:
+  i]the type and the name. ii]type declares the element type of the array.
+  int arr[];
+
+
+*Obtaining an array is a two-step process.
+ i] you must declare a variable of the desired array type.
+ii] you must allocate the memory to hold the array, using new, and assign it to the array variable.
+   arr=new int[20];
+
+*
